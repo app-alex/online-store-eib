@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <title>Elecrogroup Interfoane Bucuresti</title>
+  </head>
+
+  <body class="">
+
+    <div class="container-fluid hidden-xs" id="divHeader">
+      <div class="row h-100">
+        <div class="flex-center pull-left" id="divLogo">
+            <!-- <img src="logo-name.png" alt="" class="w-100 h-100" style=""> -->
+          <div class="logo">
+            <span class="logo-name"><b>ELECTROGRUP<br>INTERFOANE<br>BUCURESTI<br></b></span>
+            <span class="logo-moto">o viata mai sigura</span>
+          </div>
+        </div>
+        <div class="h-100 pull-left" id="divMoto">
+          <div class="w-100 h-50 flex-center"><span class="moto">PREGATITI PENTRU CONFORTUL SI SIGURANTA DUMNEAVOASTRA</span></div>
+          <div class="w-100 h-50 flex-center"><span class="call-tel">Sunati chiar acum pentru oferte personalizate la telefon&nbsp;</span><span class="nr-tel">0755.113.400 sau 0729.725.128</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid visible-xs" id="divHeaderXs">
+      <div class="w-100 text-center">
+        <span class="logo-name"><b>ELECTROGRUP INTERFOANE BUCURESTI</b></span>
+      </div>
+      <div class="w-100 text-center">
+        <span class="logo-moto">o viata mai sigura</span>
+      </div>
+    </div>
+
+    <nav role="navigation" class="navbar navbar-inverse pull-left" data-spy="affix" data-offset-top="60">
+      <div class="navbar-header pull-right">
+        <button class="navbar-toggle pull-left" id="buttonNavbarToggle" type="button" data-toggle="collapse" data-target="#divNavbarCollapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <form class="form-inline" id="formNavbar" method="post" action="produse.php">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+              <a href="cos.php" class="btn btn-default">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="collapse navbar-collapse" id="divNavbarCollapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="active"><a href="index.html">Acasa</a></li>
+          <li>
+            <div class="dropdown-split">
+              <a href="produse.php" class="btn">Produse</a>
+              <a data-toggle="dropdown" class="btn" style="margin-left: -18px;">
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="menu-item dropdown dropdown-submenu">
+                  <a href="produse.php?categorie=interfoane" class="dropdown-toggle">
+                    Interfoane
+                    <span class="expand_caret caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href='produse.php?categorie2=interfoane_bloc'>Interfoane de blocuri</a></li>
+                    <li><a href="produse.php?categorie2=interfoane_vila">Interfoane de vile</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item dropdown dropdown-submenu">
+                  <a href="produse.php?categorie=video_interfoane" class="dropdown-toggle">
+                    Videointerfoane
+                    <span class="expand_caret caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href='produse.php?categorie2=video_interfoane_bloc'>Videointerfoane de blocuri</a></li>
+                    <li><a href="produse.php?categorie2=video_interfoane_vila">Videointerfoane de vile</a></li>
+                  </ul>
+                </li>
+                <li><a href="produse.php?categorie=supraveghere">Sisteme de supraveghere</a></li>
+                <li><a href="produse.php?categorie=acces">Control acces</a></li>
+                <li><a href="produse.php?categorie=antiefractie">Alarme antiefractie</a></li>
+                <li><a href="produse.php?categorie=porti">Porti automate</a></li>
+                <li><a href="produse.php?categorie=usi">Usi de garaj</a></li>
+                <li><a href="produse.php?categorie=bariere">Bariere auto</a></li>
+                <li><a href="produse.php?categorie=yale">Yale si accesorii usi</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+
+        <!-- <ul class="nav navbar-nav navbar-right" id="listLogin">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+      </div>
+    </nav>
+
+    <div class="" id="divBreakLine"></div>
+
+    <div class="container-fluid w-100"  style="padding-top: 52px; padding-left: 0px; padding-right: 0px;">
+      <section class="carousel-default" style="width: 100%; margin: auto;">
+        <div id="carousel-default" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-default" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-default" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-default" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner" id="divCarouselAcasa" role="listbox">
+            <div class="item active h-100">
+              <a href="#"><img class="img-carousel-acasa" src="imagini/imgAcasa2.jpg" alt="First slide"></a>
+              <div class="carousel-caption">
+                <h3>Camera interior</h3>
+                <p>Mereu de veghe</p>
+              </div>
+            </div>
+            <div class="item h-100">
+              <a href="#"><img class="img-carousel-acasa" src="imagini/imgAcasa1.jpg" alt="Second slide"></a>
+              <div class="carousel-caption">
+                <h3>Kit Vila</h3>
+                <p>Securizeaza-ti casa!</p>
+              </div>
+            </div>
+            <div class="item h-100">
+             <a href="#"><img class="img-carousel-acasa" src="imagini/imgAcasa5.jpg" alt="Third slide"></a>
+              <div class="carousel-caption">
+                <h3>DVR + Monitor</h3>
+                <p>Vegheaza-ti locuinta!</p>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-default" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-default" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="container w-100" id="divContent">
+
+      <div class="row" id="divDescriereAcasa" style="padding-top: 20px;">
+
+        <div class="col-xs-12 col-sm-6" id="divActivitate">
+
+          <div class="flex-center" id="divImgAcasa1">
+            <img class="h-100" src="imagini/imgDiv1.png" alt="">
+          </div>
+          <div class="tri-up" style="margin: auto;"></div>
+          <div class="">
+            <h2 style="text-align: center;">Domenii de activitate</h2>
+            <div class="" style="">
+              <ul class="" style="margin-left: 10%;">
+                <li>Interfoane si Videointerfoane</li>
+                <li>Sisteme de control acces si pontaj</li>
+                <li>Sisteme de supraveghere retele CCTV</li>
+                <li>Usi de garaj</li>
+                <li>Automatizari porti (culisante si batante)</li>
+                <li>Bariere auto</li>
+                <li>Alarme antiefractie si incendiu</li>
+                <li>Confectii metalice (porti, grilaje, copertine etc)</li>
+                <li>Instalatii electrice curenti slabi si medie putere</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-6">
+
+          <div class="flex-center" id="divImgAcasa6">
+            <img class="h-100" style="border-radius: 10px;" src="imagini/imgAcasa6.jpg" alt="">
+          </div>
+          <div class="tri-up" style="margin: auto;"></div>
+          <div class="">
+            <h2 style="text-align: center;">Reparatii si mentenanta</h2>
+            <p>
+              Executam reparatii la orice sistem de securitate sau automatizare, repuneri in functiune la sisteme mai vechi sau, inbunatatiri ale sistemelor deja existente.
+              Pentru o mai buna functionare a sistemelor dvs. , firma noastra va recomanda un contract de mentenanta. La incheierea contractului firma se va obliga sa remedieze defectiunile aparute in timpul cel mai scurt de la semnalarea de catre beneficiar, iar la cererea acestuia se poate face o revizie periodica gratuita pentru buna functionare a sistemului.
+              In speranta ca ne-am facut intelesi in legatura cu utilitatea unui astfel de contract va asteptam sa ne contactati pentru mai multe detalii la pagina de contact.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer w-100" style="bottom: 0;">
+
+    </div>
+
+  </body>
+
+</html>
